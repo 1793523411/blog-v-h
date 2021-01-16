@@ -3,9 +3,9 @@ blog: true
 home: true
 icon: home
 title: Mr.Hope
-heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
+heroImage: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
+heroText: 跌倒的小黄瓜
+tagline: 我永远都是最帅~~~
 project:
   - type: project
     name: project name
@@ -27,7 +27,5 @@ project:
     desc: Detailed description of the article
     link: link to your article
 
-footer: customize your footer text
+footer: 版权所有
 ---
-
-For related configuration documents, please see [blog homepage](https://vuepress-theme.mrhope.site/guide/layout/blog/)

@@ -1,10 +1,10 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "跌倒的小黄瓜",
+  description: "跌倒的小黄瓜的个人博客",
 
-  base: "/vuepress-theme-hope-template/",
+  base: "/",
 
   dest: "./dist",
 
@@ -36,8 +36,8 @@ module.exports = config({
   },
 
   themeConfig: {
-    logo: "/logo.svg",
-    hostname: "https://vuepress-theme-demo.mrhope.site/",
+    logo: "https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png",
+    hostname: "",
 
     nav: [
       { text: "Blog Home", link: "/", icon: "home" },
@@ -46,6 +46,11 @@ module.exports = config({
         text: "Guide",
         icon: "creative",
         link: "/guide/",
+      },
+      {
+        text: "my",
+        icon: "creative",
+        link: "/my/",
       },
       {
         text: "Docs",
@@ -63,7 +68,18 @@ module.exports = config({
           title: "Guide",
           icon: "creative",
           prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
+          children: ["", "page", "markdown", "disable",],
+        },
+      ],
+      "/my": [
+        "",
+        "home",
+        "slides",
+        {
+          title: "Guide-my",
+          icon: "creative",
+          prefix: "my/",
+          children: ["", "hello",],
         },
       ],
     },
@@ -100,15 +116,16 @@ module.exports = config({
       },
     },
 
-    author: "Mr.Hope",
+    author: "杨国杰",
 
     blog: {
       intro: "/intro/",
       sidebarDisplay: "mobile",
       links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
-        Github: "https://github.com",
+        Zhihu: "https://www.zhihu.com/people/die-dao-de-xiao-huang-gua",
+        Gmail: "ygj1793523411@gmail.com",
+        Twitter:"https://twitter.com/A4d7PZk1cyy3mEh",
+        Github: "https://github.com/1793523411",
       },
     },
 
@@ -204,7 +221,7 @@ module.exports = config({
       },
     },
 
-    repo: "https://github.com/mister-hope/vuepress-theme-hope",
+    repo: "https://github.com/1793523411/blog-v-h",
     repoLabel: "Github",
   },
 });
