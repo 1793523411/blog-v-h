@@ -59,8 +59,8 @@ module.exports = config({
       },
     ],
 
-    sidebar: {
-      "/": [
+    sidebar:{
+      "/guide":[
         "",
         "home",
         "slides",
@@ -71,17 +71,16 @@ module.exports = config({
           children: ["", "page", "markdown", "disable",],
         },
       ],
-      "/my": [
-        "",
-        "home",
+      "/my":[
         "slides",
+        "home",
         {
-          title: "Guide-my",
+          title: "my",
           icon: "creative",
           prefix: "my/",
           children: ["", "hello",],
         },
-      ],
+      ]
     },
 
     locales: {
