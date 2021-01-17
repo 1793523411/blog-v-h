@@ -1785,6 +1785,11 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vuepress-reco/vuepress-plugin-loading-page@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-loading-page/download/@vuepress-reco/vuepress-plugin-loading-page-1.6.0.tgz#34b72ed342dc9b15021d077ff8faeafe52146159"
+  integrity sha1-NLcu00LcmxUCHQd/+Prq/lIUYVk=
+
 "@vuepress/core@1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@vuepress/core/-/core-1.8.0.tgz#b5450cdd33d7fc1e1d21a1590806d429c92d0dc9"
@@ -9303,8 +9308,8 @@ vuepress-plugin-named-chunks@^1.1.4:
 
 vuepress-plugin-photo-swipe@^1.8.1:
   version "1.8.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-1.8.1.tgz#d4dce3cc6c4bd17b95dd8a5edd08c839885088f4"
-  integrity sha512-YhVnSnBzYWLK9dtQObyTFM3CstC8xJ3s6PV4siAam6otjJKAbGgbcEreAB8l4DdTvR8k+MWXulVTW9Eeo3w3CA==
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-photo-swipe/download/vuepress-plugin-photo-swipe-1.8.1.tgz#d4dce3cc6c4bd17b95dd8a5edd08c839885088f4"
+  integrity sha1-1NzjzGxL0XuV3Ype3QjIOYhQiPQ=
   dependencies:
     "@mr-hope/vuepress-types" "^1.8.1"
     "@types/photoswipe" "^4.1.1"

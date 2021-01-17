@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Project homepage demo
-heroImage: /logo.svg
+heroImage: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
 heroText: Project name
 tagline: You can place the description of the project here.
 action:

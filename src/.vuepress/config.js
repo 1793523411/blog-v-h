@@ -28,6 +28,8 @@ module.exports = config({
     ],
   ],
 
+  plugins: [["photo-swipe"]],
+
   locales: {
     "/zh/": {
       title: "Theme Demo",
@@ -42,42 +44,53 @@ module.exports = config({
     nav: [
       { text: "Blog Home", link: "/", icon: "home" },
       { text: "Project Home", link: "/home/", icon: "home" },
+
       {
-        text: "Guide",
+        text: "essay",
         icon: "creative",
-        link: "/guide/",
+        link: "/essay/",
       },
       {
-        text: "my",
+        text: "Summary",
         icon: "creative",
-        link: "/my/",
+        link: "/summary/",
       },
-      {
-        text: "Docs",
-        link: "https://vuepress-theme.mrhope.site/",
-        icon: "note",
-      },
+      // {
+      //   text: "Docs",
+      //   link: "https://vuepress-theme.mrhope.site/",
+      //   icon: "note",
+      // },
     ],
 
-    sidebar:{
-      "/guide":[
+    sidebar: {
+      "/summary": [
         "",
         "home",
         "slides",
         {
-          title: "Guide",
+          title: "Summary",
           icon: "creative",
-          prefix: "guide/",
+          prefix: "summary/",
           children: ["", "page", "markdown", "disable",],
         },
       ],
-      "/my":[
+      "/essay": [
         "slides",
         "home",
         {
-          title: "my",
+          title: "essay",
           icon: "creative",
-          prefix: "my/",
+          prefix: "essay/",
+          children: ["", "hello",],
+        },
+      ],
+      "/guide": [
+        "slides",
+        "home",
+        {
+          title: "essay",
+          icon: "creative",
+          prefix: "essay/",
           children: ["", "hello",],
         },
       ]
@@ -89,28 +102,53 @@ module.exports = config({
           { text: "博客主页", link: "/zh/", icon: "home" },
           { text: "项目主页", link: "/zh/home/", icon: "home" },
           {
-            text: "如何使用",
+            text: "随笔",
             icon: "creative",
-            link: "/zh/guide/",
+            link: "/essay/",
           },
           {
-            text: "主题文档",
-            icon: "note",
-            link: "https://vuepress-theme.mrhope.site/zh/",
+            text: "如何使用",
+            icon: "creative",
+            link: "/zh/summary/",
           },
+          // {
+          //   text: "主题文档",
+          //   icon: "note",
+          //   link: "https://vuepress-theme.mrhope.site/zh/",
+          // },
         ],
         sidebar: {
-          "/zh/": [
+          "/zh/summary": [
             "",
             "home",
             "slides",
             {
-              title: "如何使用",
+              title: "总结",
               icon: "creative",
-              prefix: "guide/",
-              children: ["", "page", "markdown", "disable", "encrypt"],
+              prefix: "summary/",
+              children: ["", "page", "markdown", "disable",],
             },
           ],
+          "/zh/essay": [
+            "slides",
+            "home",
+            {
+              title: "随笔",
+              icon: "creative",
+              prefix: "essay/",
+              children: ["", "hello",],
+            },
+          ],
+          "/zh/guide": [
+            "slides",
+            "home",
+            {
+              title: "essay",
+              icon: "creative",
+              prefix: "essay/",
+              children: ["", "hello",],
+            },
+          ]
         },
       },
     },
@@ -123,19 +161,20 @@ module.exports = config({
       links: {
         Zhihu: "https://www.zhihu.com/people/die-dao-de-xiao-huang-gua",
         Gmail: "ygj1793523411@gmail.com",
-        Twitter:"https://twitter.com/A4d7PZk1cyy3mEh",
+        Twitter: "https://twitter.com/A4d7PZk1cyy3mEh",
         Github: "https://github.com/1793523411",
       },
     },
 
     comment: {
       type: "valine",
-      appId: "msnseO76haIVIGvfJ10BKnpv-gzGzoHsz",
-      appKey: "9QMulKhu7EDp1va0TYXR2PrI",
+      appId: "sfdjeGHD74b73vlumn8I9Q5q-gzGzoHsz",
+      appKey: "Nged9v2AmlrqBcNmHTBSLoIW",
     },
-
+    addThis: "ra-6003b1ac6f49407e",
     copyright: {
       status: "global",
+      minLength:50
     },
 
     footer: {
@@ -198,9 +237,9 @@ module.exports = config({
         ],
         shortcuts: [
           {
-            name: "Guide",
-            short_name: "Guide",
-            url: "/guide/",
+            name: "Summary",
+            short_name: "Summary",
+            url: "/summary/",
             icons: [
               {
                 src: "/assets/icon/guide-maskable.png",
