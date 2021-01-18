@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "跌倒的小黄瓜",
-  description: "跌倒的小黄瓜的个人博客",
+  title: "The fallen cucumber",
+  description: "Where the Fallen Cucumber blogged~😁",
 
   base: "/",
 
@@ -32,8 +32,8 @@ module.exports = config({
 
   locales: {
     "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
+      title: "跌倒的小黄瓜",
+      description: "跌倒的小黄瓜写博客的地方~~😃",
     },
   },
 
@@ -43,7 +43,7 @@ module.exports = config({
 
     nav: [
       { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
+      // { text: "Project Home", link: "/home/", icon: "home" },
 
       {
         text: "essay",
@@ -71,16 +71,6 @@ module.exports = config({
           children: ["2021-1"],
         },
       ],
-      "/essay": [
-        "slides",
-        "home",
-        {
-          title: "essay",
-          icon: "creative",
-          prefix: "essay/",
-          children: ["", "slides","hello",],
-        },
-      ],
       "/guide": [
         "slides",
         "home",
@@ -97,14 +87,14 @@ module.exports = config({
       "/zh/": {
         nav: [
           { text: "博客主页", link: "/zh/", icon: "home" },
-          { text: "项目主页", link: "/zh/home/", icon: "home" },
+          // { text: "项目主页", link: "/zh/home/", icon: "home" },
           {
             text: "随笔",
             icon: "creative",
-            link: "/essay/",
+            link: "/zh/essay/",
           },
           {
-            text: "如何使用",
+            text: "总结",
             icon: "creative",
             link: "/zh/summary/",
           },
@@ -116,24 +106,11 @@ module.exports = config({
         ],
         sidebar: {
           "/zh/summary": [
-            "",
-            "home",
-            "slides",
             {
-              title: "总结",
+              title: "2021",
               icon: "creative",
               prefix: "summary/",
-              children: ["", "page", "markdown", "disable",],
-            },
-          ],
-          "/zh/essay": [
-            "slides",
-            "home",
-            {
-              title: "随笔",
-              icon: "creative",
-              prefix: "essay/",
-              children: ["", "hello",],
+              children: ["2021-1"],
             },
           ],
           "/zh/guide": [
@@ -161,7 +138,7 @@ module.exports = config({
       },
     },
 
-    author: "跌倒的小黄瓜",
+    author: "杨国杰",
 
     blog: {
       intro: "/intro/",
@@ -187,7 +164,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "🥶🥵😀🤑🤢🤕😈",
     },
 
     mdEnhance: {

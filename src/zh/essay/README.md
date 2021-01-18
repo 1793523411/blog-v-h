@@ -1,6 +1,10 @@
 ---
-icon: creative
-category: article
+icon: costoms-alearance
+category: 其他
+footer: 😁😁😁
+article: false
 ---
 
-# Article
+# 随笔
+
+[你好](hello.md)

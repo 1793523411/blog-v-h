@@ -1,5 +1,7 @@
 ---
 icon: info
+article: false
+footer: 😁😁😁
 ---
 
 # 关于我

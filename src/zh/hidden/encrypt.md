@@ -1,9 +1,10 @@
 ---
 icon: command
 password: 1234
-category: 使用指南
-tag:
-  - 文章加密
+# category: 使用指南
+article: false
+# tag:
+#   - 文章加密
 ---
 
 # 密码加密的文章

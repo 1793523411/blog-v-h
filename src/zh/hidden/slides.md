@@ -1,6 +1,7 @@
 ---
 title: 幻灯片页
 layout: Slide
+article: false
 ---
 
 @slidestart

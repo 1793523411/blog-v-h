@@ -1,11 +1,12 @@
 ---
 icon: set
-category: 使用指南
+# category: 使用指南
 backtotop: false
 breadcrumb: false
 footer: false
 pageInfo: false
 comment: false
+article: false
 ---
 
 # 组件禁用
