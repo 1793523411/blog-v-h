@@ -244,7 +244,7 @@ module.exports = config({
       },
     },
 
-    repo: "https://github.com/1793523411/blog-v-h",
+    repo: "https://github.com/1793523411",
     repoLabel: "Github",
   },
 });

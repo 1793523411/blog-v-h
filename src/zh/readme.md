@@ -5,7 +5,7 @@ icon: home
 title: Mr.Hope
 heroImage: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
 heroText: 跌倒的小黄瓜
-tagline: 你可以在这里放置你的口号与标语
+tagline:  我永远都是最帅~~~
 project:
 #   - type: project
 #     name: 项目名称

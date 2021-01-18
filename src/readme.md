@@ -4,7 +4,7 @@ home: true
 icon: home
 title: Mr.Hope
 heroImage: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
-heroText: 跌倒的小黄瓜
+heroText: The fallen cucumber
 tagline: 我永远都是最帅~~~
 project:
   # - type: project
@@ -43,5 +43,5 @@ project:
   #   link: link to your book
   #   cover: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
 
-footer: 版权所有
+# footer: 版权所有
 ---
