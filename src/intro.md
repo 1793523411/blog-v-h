@@ -2,6 +2,6 @@
 icon: info
 ---
 
-# Intro Page
+# 关于我
 
-Place your introducation and profile here.
+这里是我的自我介绍

@@ -31,5 +31,17 @@ project:
     link: link to your article
     cover: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
 
+  - type: book
+    name: book name
+    desc: Detailed description of the book
+    link: link to your book
+    cover: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
+    
+  - type: book
+    name: book name
+    desc: Detailed description of the book
+    link: link to your book
+    cover: https://wx-xly-1301545895.cos.ap-beijing.myqcloud.com/my-website/logo.png
+
 footer: 版权所有
 ---

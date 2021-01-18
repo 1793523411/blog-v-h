@@ -64,14 +64,11 @@ module.exports = config({
 
     sidebar: {
       "/summary": [
-        "",
-        "home",
-        "slides",
         {
-          title: "Summary",
+          title: "2021",
           icon: "creative",
           prefix: "summary/",
-          children: ["", "page", "markdown", "disable",],
+          children: ["2021-1"],
         },
       ],
       "/essay": [
@@ -81,7 +78,7 @@ module.exports = config({
           title: "essay",
           icon: "creative",
           prefix: "essay/",
-          children: ["", "hello",],
+          children: ["", "slides","hello",],
         },
       ],
       "/guide": [
@@ -145,15 +142,26 @@ module.exports = config({
             {
               title: "essay",
               icon: "creative",
-              prefix: "essay/",
+              prefix: "guide/",
               children: ["", "hello",],
+            },
+          ],
+          "/zh/hidden":[
+            "",
+            "home",
+            "slides",
+            {
+              title: "隐藏",
+              icon: "creative",
+              prefix: "hidden/",
+              children: ["", "page", "markdown", "disable","home","slides"],
             },
           ]
         },
       },
     },
 
-    author: "杨国杰",
+    author: "跌倒的小黄瓜",
 
     blog: {
       intro: "/intro/",
